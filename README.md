@@ -15,11 +15,12 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
-const cristinaRamos = {
+```javascript
+const miguelChito = {
   personalInfo: {
-    name: "Cristina",
+    name: "Miguel",
     role: "Full Stack Developer",
-    linkedIn: "https://www.linkedin.com/in/cristinaramospascual",
+    linkedIn: "[https://www.linkedin.com/in/miguelchito-reactdeveloper]",
   },
   
   skills: {
@@ -30,28 +31,23 @@ const cristinaRamos = {
     tools: ["Git", "GitHub", "VS Code", "npm", "Webpack"],
   },
   
-  currentlyLearning: "TypeScript",
   
   introduceYourself: () => {
     console.log(`
-      Hello! I'm ${cristinaRamos.personalInfo.name},a ${cristinaRamos.personalInfo.role}.
-      If you want to know a bit more about me, visit my LinkedIn profile: ${cristinaRamos.personalInfo.linkedIn}
+      Hello! I'm ${miguelChito.personalInfo.name}, a ${miguelChito.personalInfo.role}.
+      If you want to know a bit more about me, visit my LinkedIn profile: ${miguelChito.personalInfo.linkedIn}
     `);
   },
 };
 
-cristinaRamos.introduceYourself();
+miguelChito.introduceYourself();
 
 console.log(`
   I have experience in a variety of technologies, including:
 
-  Frontend: ${cristinaRamos.skills.frontend.join(', ')}
-  Backend: ${cristinaRamos.skills.backend.join(', ')}
-  Databases: ${cristinaRamos.skills.databases.join(', ')}
-  Frameworks: ${cristinaRamos.skills.frameworks.join(', ')}
-  Tools: ${cristinaRamos.skills.tools.join(', ')}
-`);
-
-console.log(`
-  I have a passion for gaining new insights, rigth know I am learning ${cristinaRamos.currentlyLearning}.
+  Frontend: ${miguelChito.skills.frontend.join(', ')}
+  Backend: ${miguelChito.skills.backend.join(', ')}
+  Databases: ${miguelChito.skills.databases.join(', ')}
+  Frameworks: ${miguelChito.skills.frameworks.join(', ')}
+  Tools: ${miguelChito.skills.tools.join(', ')}
 `);
