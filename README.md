@@ -12,9 +12,11 @@ Here are some ideas to get you started:
 - 📫 How to reach me: ...
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
--->
 
 # Hi there 👋 I'm Miguel
+-->
+
+![banner](https://github.com/donxito/donxito/assets/96595540/02666da2-29c6-47d2-92ff-0795becd11a8)
 
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&random=false&width=435&lines=Full+Stack+Developer;Always+ready+for+new+projects)](https://git.io/typing-svg)
 
