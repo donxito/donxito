@@ -29,10 +29,10 @@ const miguelChito = {
   },
   
   skills: {
-    frontend: ["JavaScript", "HTML", "CSS", "MUI", "Bootstrap"],
+    frontend: ["JavaScript", "TypeScript", "HTML", "CSS", "SASS", "MUI", "TailwindCSS"],
     backend: ["NodeJS", "Express"],
     databases: ["MongoDB"],
-    frameworks: ["React"],
+    frameworks: ["React", "Vue"],
     tools: ["Git", "GitHub", "VS Code", "npm", "Webpack"],
   },
   
