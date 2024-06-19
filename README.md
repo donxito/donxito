@@ -32,7 +32,7 @@ const miguelChito = {
     frontend: ["JavaScript", "TypeScript", "HTML", "CSS", "SASS", "MUI", "TailwindCSS"],
     backend: ["NodeJS", "Express"],
     databases: ["MongoDB"],
-    frameworks: ["React", "Vue"],
+    frameworks: ["React", "Vue", "Nextjs"],
     tools: ["Git", "GitHub", "VS Code", "npm", "Webpack"],
   },
   
@@ -71,6 +71,8 @@ console.log(`
 ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
 ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
 ![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
+	https://img.shields.io/badge/next%20js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
+ https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white
 
 
 ## Connect with me:
