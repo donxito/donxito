@@ -16,10 +16,10 @@ Here are some ideas to get you started:
 # Hi there 👋 I'm Miguel
 
 ![banner](https://github.com/donxito/donxito/assets/96595540/02666da2-29c6-47d2-92ff-0795becd11a8)
--->
-
 
 ![banner](https://github.com/user-attachments/assets/5e15804c-9888-445b-b9e2-5004ba68983c)
+-->
+![newbanner](https://github.com/user-attachments/assets/ef56ee2c-3a4d-4be3-b5dd-f28d9f569a0e)
 
  Hi there 👋 I'm Miguel
 
