@@ -24,7 +24,7 @@ Here are some ideas to get you started:
 
 ![newbanner](https://github.com/user-attachments/assets/fba4a18d-d4b5-41a1-99c1-b43094269ad7)
 
- Hi there 👋 I'm Miguel
+## Hi there 👋 I'm Miguel
 
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&random=false&width=435&lines=Full+Stack+Developer;Always+ready+for+new+projects)](https://git.io/typing-svg)
 
