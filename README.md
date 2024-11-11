@@ -35,22 +35,21 @@ const miguelChito = {
   personalInfo: {
     name: "Miguel",
     role: "Full Stack Developer",
-    linkedIn: "[https://www.linkedin.com/in/miguelchito-reactdeveloper]",
+    linkedIn: "https://www.linkedin.com/in/miguelchito-reactdeveloper",
   },
-  
+
   skills: {
     frontend: ["JavaScript", "TypeScript", "HTML", "CSS", "SASS", "MUI", "TailwindCSS"],
     backend: ["NodeJS", "Express"],
     databases: ["MongoDB"],
-    frameworks: ["React", "Vue", "Nextjs"],
+    frameworks: ["React", "Vue", "Next.js"],
     tools: ["Git", "GitHub", "VS Code", "npm", "Webpack"],
   },
-  
-  
-  introduceYourself: () => {
+
+  introduceYourself() {
     console.log(`
-      Hello! I'm ${miguelChito.personalInfo.name}, a ${miguelChito.personalInfo.role}.
-      If you want to know a bit more about me, visit my LinkedIn profile: ${miguelChito.personalInfo.linkedIn}
+      Hello! I'm ${this.personalInfo.name}, a ${this.personalInfo.role}.
+      If you want to know more about me, visit my LinkedIn profile: ${this.personalInfo.linkedIn}
     `);
   },
 };
@@ -60,11 +59,11 @@ miguelChito.introduceYourself();
 console.log(`
   I have experience in a variety of technologies, including:
 
-  Frontend: ${miguelChito.skills.frontend.join(', ')}
-  Backend: ${miguelChito.skills.backend.join(', ')}
-  Databases: ${miguelChito.skills.databases.join(', ')}
-  Frameworks: ${miguelChito.skills.frameworks.join(', ')}
-  Tools: ${miguelChito.skills.tools.join(', ')}
+  Frontend: ${miguelChito.skills.frontend.join(", ")}
+  Backend: ${miguelChito.skills.backend.join(", ")}
+  Databases: ${miguelChito.skills.databases.join(", ")}
+  Frameworks: ${miguelChito.skills.frameworks.join(", ")}
+  Tools: ${miguelChito.skills.tools.join(", ")}
 `);
 
 ```
