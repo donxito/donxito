@@ -35,9 +35,9 @@ const miguelChito = {
   personalInfo: {
     name: "Miguel",
     role: "Junior Frontend Developer",
-    linkedIn: "[https://www.linkedin.com/in/miguelchito-reactdeveloper](https://linkedin.com/in/miguelchito-reactdeveloper)",
-    github: "[https://github.com/miguelchito](https://github.com/donxito)",
-    website: "[https://miguelchito.dev](https://mchito.vercel.app/)"
+    linkedIn: "https://linkedin.com/in/miguelchito-reactdeveloper",
+    github: "https://github.com/donxito",
+    website: "https://mchito.vercel.app"
   },
   skills: {
     frontend: ["JavaScript", "TypeScript", "React", "Next.js", "HTML", "CSS", "SASS", "TailwindCSS", "Redux", "React Query"],
