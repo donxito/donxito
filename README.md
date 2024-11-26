@@ -34,37 +34,42 @@ Here are some ideas to get you started:
 const miguelChito = {
   personalInfo: {
     name: "Miguel",
-    role: "Full Stack Developer",
-    linkedIn: "https://www.linkedin.com/in/miguelchito-reactdeveloper",
+    role: "Junior Frontend Developer",
+    linkedIn: "[https://www.linkedin.com/in/miguelchito-reactdeveloper](https://linkedin.com/in/miguelchito-reactdeveloper)",
+    github: "[https://github.com/miguelchito](https://github.com/donxito)",
+    website: "[https://miguelchito.dev](https://mchito.vercel.app/)"
   },
-
   skills: {
-    frontend: ["JavaScript", "TypeScript", "HTML", "CSS", "SASS", "MUI", "TailwindCSS"],
-    backend: ["NodeJS", "Express"],
-    databases: ["MongoDB"],
-    frameworks: ["React", "Vue", "Next.js"],
-    tools: ["Git", "GitHub", "VS Code", "npm", "Webpack"],
+    frontend: ["JavaScript", "TypeScript", "React", "Next.js", "HTML", "CSS", "SASS", "TailwindCSS", "Redux", "React Query"],
+    backend: ["Node.js", "Express", "REST APIs"],
+    databases: ["MongoDB", "PostgreSQL", "Firebase", "Supabase"],
+    cloud: ["AWS", "Vercel", "Heroku"],
+    tools: ["Git", "GitHub", "VS Code", "Docker", "Jest", "React Testing Library", "Webpack", "npm", "yarn"]
   },
-
   introduceYourself() {
     console.log(`
       Hello! I'm ${this.personalInfo.name}, a ${this.personalInfo.role}.
-      If you want to know more about me, visit my LinkedIn profile: ${this.personalInfo.linkedIn}
+      You can find me on:
+      - LinkedIn: ${this.personalInfo.linkedIn}
+      - GitHub: ${this.personalInfo.github}
+      - Website: ${this.personalInfo.website}
     `);
   },
+  listSkills() {
+    console.log(`
+  My technical skills include:
+  Frontend: ${this.skills.frontend.join(", ")}
+  Backend: ${this.skills.backend.join(", ")}
+  Databases: ${this.skills.databases.join(", ")}
+  Cloud: ${this.skills.cloud.join(", ")}
+  Tools: ${this.skills.tools.join(", ")}
+    `);
+  }
 };
 
+// Usage
 miguelChito.introduceYourself();
-
-console.log(`
-  I have experience in a variety of technologies, including:
-
-  Frontend: ${miguelChito.skills.frontend.join(", ")}
-  Backend: ${miguelChito.skills.backend.join(", ")}
-  Databases: ${miguelChito.skills.databases.join(", ")}
-  Frameworks: ${miguelChito.skills.frameworks.join(", ")}
-  Tools: ${miguelChito.skills.tools.join(", ")}
-`);
+miguelChito.listSkills();
 
 ```
 
