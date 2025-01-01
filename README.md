@@ -34,7 +34,7 @@ Here are some ideas to get you started:
 const miguelChito = {
   personalInfo: {
     name: "Miguel",
-    role: "Junior Frontend Developer",
+    role: "Frontend Developer",
     linkedIn: "https://linkedin.com/in/miguelchito-reactdeveloper",
     github: "https://github.com/donxito",
     website: "https://mchito.vercel.app"
