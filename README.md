@@ -1,77 +1,44 @@
 
-<!--
-**donxito/donxito** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
-
-# Hi there 👋 I'm Miguel
-
-![banner](https://github.com/donxito/donxito/assets/96595540/02666da2-29c6-47d2-92ff-0795becd11a8)
-
-![banner](https://github.com/user-attachments/assets/5e15804c-9888-445b-b9e2-5004ba68983c)
-
-![newbanner](https://github.com/user-attachments/assets/ef56ee2c-3a4d-4be3-b5dd-f28d9f569a0e)
--->
 
 
-## Hi there 👋 I'm Miguel
+# Hey there, I'm Miguel 👋
+
+## Full Stack Developer with Frontend focus
+
+I build web applications with a strong emphasis on user experience and interface design, bringing my design background to development.
 
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&random=false&width=435&lines=Full+Stack+Developer;Always+ready+for+new+projects)](https://git.io/typing-svg)
 
 
 ![newbanner](https://github.com/user-attachments/assets/fba4a18d-d4b5-41a1-99c1-b43094269ad7)
 
+
 ```javascript
 const miguelChito = {
+  background: {
+    design: "10+ years in graphic design",
+    travel: "3 years cooking across Southeast Asia",
+    coding: "Full stack development with frontend focus"
+  },
   personalInfo: {
-    name: "Miguel",
-    role: "Frontend Developer",
-    linkedIn: "https://linkedin.com/in/miguelchito-reactdeveloper",
-    github: "https://github.com/donxito",
-    website: "https://mchito.vercel.app"
+    role: "Frontend Developer at Camp 86",
+    location: "Copenhagen, DK",
+    portfolio: "https://mchito.vercel.app",
+    linkedIn: "https://linkedin.com/in/miguelchito-reactdeveloper"
   },
   skills: {
-    frontend: ["JavaScript", "TypeScript", "React", "Next.js", "HTML", "CSS", "SASS", "TailwindCSS", "Redux", "React Query"],
+    frontend: ["JavaScript", "TypeScript", "React", "Next.js", "HTML/CSS", "TailwindCSS", "Redux", "React Query"],
     backend: ["Node.js", "Express", "REST APIs"],
     databases: ["MongoDB", "PostgreSQL", "Firebase", "Supabase"],
-    cloud: ["AWS", "Vercel", "Heroku"],
-    tools: ["Git", "GitHub", "VS Code", "Docker", "Jest", "React Testing Library", "Webpack", "npm", "yarn"]
+    deployment: ["Vercel", "Netlify", "Heroku", "AWS"],
+    tools: ["Git", "GitHub", "VS Code", "Jest", "React Testing Library"]
   },
-  introduceYourself() {
-    console.log(`
-      Hello! I'm ${this.personalInfo.name}, a ${this.personalInfo.role}.
-      You can find me on:
-      - LinkedIn: ${this.personalInfo.linkedIn}
-      - GitHub: ${this.personalInfo.github}
-      - Website: ${this.personalInfo.website}
-    `);
-  },
-  listSkills() {
-    console.log(`
-  My technical skills include:
-  Frontend: ${this.skills.frontend.join(", ")}
-  Backend: ${this.skills.backend.join(", ")}
-  Databases: ${this.skills.databases.join(", ")}
-  Cloud: ${this.skills.cloud.join(", ")}
-  Tools: ${this.skills.tools.join(", ")}
-    `);
+  currentlyLearning: ["React Native", "Advanced TypeScript", "AWS"],
+  currentProjects: {
+    professional: "Qliks - email platform for musicians",
+    personal: "NextBite - recipe finder application"
   }
 };
-
-// Usage
-miguelChito.introduceYourself();
-miguelChito.listSkills();
-
-```
 
 ## Tech Stack:
 
