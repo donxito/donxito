@@ -39,6 +39,7 @@ const miguelChito = {
     personal: "NextBite - recipe finder application"
   }
 };
+```
 
 ## Tech Stack:
 
