@@ -27,7 +27,7 @@ const miguelChito = {
     linkedIn: "https://linkedin.com/in/miguelchito-reactdeveloper"
   },
   skills: {
-    frontend: ["JavaScript", "TypeScript", "React", "Next.js", "HTML/CSS", "TailwindCSS", "Redux", "React Query"],
+    frontend: ["JavaScript", "TypeScript", "React", "Next.js", "HTML/CSS", "TailwindCSS", "Redux", "React Query", "Zustand"],
     backend: ["Node.js", "Express", "REST APIs"],
     databases: ["MongoDB", "PostgreSQL", "Firebase", "Supabase"],
     deployment: ["Vercel", "Netlify", "Heroku", "AWS"],
@@ -36,7 +36,7 @@ const miguelChito = {
   currentlyLearning: ["React Native", "Advanced TypeScript", "AWS"],
   currentProjects: {
     professional: "Qliks - email platform for musicians",
-    personal: "NextBite - recipe finder application"
+    personal: " DesignHandoff - collaborative platform that streamlines the transition from design to development"
   }
 };
 ```
